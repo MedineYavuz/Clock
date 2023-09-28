@@ -1,0 +1,50 @@
+    body{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+        overflow: hidden;
+    }
+    h2{
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .clock{
+        display: flex;
+    }
+    .clock div{
+        margin: 6px;
+        position: relative;
+    }
+
+    .clock div span{
+        width: 100px;
+        height: 80px;
+        margin: 3px;
+        background-color: #7D7C7C;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        display: flex;
+    }
+    #yazı{
+        height: 30px;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        opacity: 0,7;
+    }
+    #pm-am{
+        bottom: 0;
+        position: absolute;
+        width: 50px;
+        height: 30px;
+    }
